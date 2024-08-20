@@ -4,7 +4,7 @@ public class DoWhile{
   public static void main(String[] args) {
     int i=1;
     do{
-      System.out.println("loop working :"+i);
+      System.out.println(+i);
       i++;
     }
     while(i<=5);
@@ -14,7 +14,7 @@ public class DoWhile{
     // decrement operator
     int j=5;
     do{
-      System.out.println("loop working :"+j);
+      System.out.println(+j);
       j--;
     }
     while(j>=1);
