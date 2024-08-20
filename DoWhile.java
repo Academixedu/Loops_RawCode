@@ -7,6 +7,12 @@ public class DoWhile{
       System.out.println("this is the number's:"+n);
       n++;
     }while(n<10);
+    int i=10;
+    do{
+      System.out.println("hrllo");
+      i--;
+      
+    }while(i>0);
 
   }
 }
